@@ -1,0 +1,53 @@
+html, body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+
+@font-face {
+    font-family: red_hat_font;
+    src: url(Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+.main {
+    background-color: white;
+    height: 700px;
+    width: 450px;
+    border-radius: 15px;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    top: 0px;
+    padding-top: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.illustration_hero {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    top: 0px;
+}
+
+.main_title {
+    margin-top: 50px;
+    font-family: red_hat_font;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.description {
+    transform: translateY(-10px);
+    font-size: 16px;
+    text-align: center;
+    font-family: red_hat_font;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}

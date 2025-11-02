@@ -1,0 +1,32 @@
+.proceed_to_payment {
+    transform: translateY(30px);
+    width: 356px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 10px 10px hsl(223, 47%, 23%);
+}
+
+.proceed_to_payment:hover {
+    background-color: hsl(244, 75%, 67%);
+}
+
+.cancel_order {
+    margin-top: 50px;
+    width: 356px;
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-family: red_hat_font;
+    font-weight: 800;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+.cancel_order:hover {
+    color: hsl(223, 47%, 23%);
+}
